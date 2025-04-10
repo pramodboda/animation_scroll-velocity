@@ -7,7 +7,7 @@ import ScrollVelocity from './components/animations/ScrollVelocity';
 
 function App() {
   const [count, setCount] = useState(0)
-
+  const velocity = 30;
   return (
     <>
 
